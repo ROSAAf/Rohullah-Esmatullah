@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleform.css">
+</head>
+<body>
+   <form action="action_page.php" method="post">
+       <h2>Student Registeration Form</h2>
+       <div id="hr"></div>
+       <div id="elements">
+            <label>Firstname:</label><br>
+            <input type="text" placeholder="Firstname" required class="texttype"><br>
+            <label>Middlename:</label><br>
+            <input type="text" placeholder="Middlename" required class="texttype"><br>
+            <label>lastname:</label><br>
+            <input type="text" placeholder="lastname" required class="texttype"><br>
+            <label>Course:</label>
+            <select required>
+                <option value="">Course</option>
+                <option value="webdesgin">Web Desgin</option>
+                <option value="webdevelopment">Web Development</option>
+            </select><br>
+            <label>Gander:</label><br>
+            <input type="radio" name="gander" value="male" class="radio" required>Male
+            <input type="radio" name="gander" value="Female" class="radio" required>Female
+            <input type="radio" name="gander" value="Other" class="radio" required>Other<br>
+            <label>Phone:</label><br>
+            <input type="tel" placeholder="+93" required pattern="+93[0-9]{9}" class="texttype"><br>
+            <input type="tel" placeholder="Phone no." required pattern="+93[0-9]{9}" class="texttype"><br>
+            <label>Current Address :</label><br>
+            <textarea name="" id="" cols="161" rows="10" placeholder="Current Address"></textarea><br>
+            <label>Email</label><br>
+            <input type="email" placeholder="Enter Email" required class="texttype"><br>
+            <label>Password</label><br>
+            <input type="password" placeholder="Enter Password" class="texttype" required pattern="(?=(?:[^a-Z]){5})(?=:\D*\d){2})(?=.*[@#$%&]).*"><br>
+            <label>Re-type Password</label><br>
+            <input type="password" placeholder="Retype password" class="texttype" required><br>
+            <input type="submit" value="Register" id="registerbtn"><br>
+       </div>
+   </form>
+</body>
+</html>

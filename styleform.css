@@ -1,0 +1,68 @@
+body{
+    background-color: lightsalmon;
+    width: 100%;
+}
+form{
+    background-color: lightskyblue;
+    width: 99%;
+    border: #32CD32 solid 1px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+label{
+    font-size: larger;
+    align-items: center;
+}
+.texttype{
+    margin-bottom: 20px;
+    height: 30px;
+    width: 80%;
+    border: #fff;
+    margin-top: 10px;
+}
+select{
+    font-size: medium;
+    width:110px;
+}
+#hr{
+    color: #fff;
+    height: 2px;
+    width: 90%;
+    background-color: #fff;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+#elements{
+    padding-top: 20px;
+    position: relative;
+    left: 220px;
+    width: 1000px;
+}
+
+select, input[type=radio]{
+    margin-bottom: 20px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+textarea{
+    border: #fff;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 80%;
+}
+#registerbtn{
+    background-color: #32CD32;
+    padding: 10px;
+    border: #fff;
+    width: 80%;
+    margin-bottom: 20px;
+}
+label{
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
